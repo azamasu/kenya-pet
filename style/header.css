@@ -1,5 +1,5 @@
 #header {
-  border-top: 34px #c9e4e9 solid;
+  /* border-top: 34px #c9e4e9 solid; */
   display: flex;
   justify-content: center;
 }
@@ -37,7 +37,7 @@
     width: 95%;
   }
   #header {
-    border-top: 18px rgb(198, 221, 221) solid;
+    /* border-top: 18px rgb(198, 221, 221) solid; */
   }
   #header #navigation_bar #img_and_nav {
     width: 50%;

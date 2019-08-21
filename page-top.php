@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <main id="top">
-  <section id="top_image"><!-- 空白 --></section>
+  <section id="top_image">
+    <img src="<?= get_template_directory_uri(); ?>/img/top/hero.png" />
+  </section>
   <section id="news">
     <div id="news_container">
       <div class="head_line">News</div>
@@ -61,10 +63,9 @@
     <div id="supplement_container">
       <div class="head_line">動物の健康とサプリの知識</div>
       <div class="items">
-        <div class="item">βグルカンとは？</div>
-        <div class="item">霊芝とは？</div>
-        <div class="item">田七人参</div>
-        <div class="item">エゾウコギエキス</div>
+        <div class="item">オリゴ糖って？</div>
+        <div class="item">乳酸菌って？</div>
+        <div class="item">愛犬・愛猫に必要ないもの</div>
       </div>
     </div>
   </section>
