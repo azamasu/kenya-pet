@@ -65,7 +65,7 @@
   .toggle {
     position: fixed; /* bodyに対しての絶対位置指定 */
     right: 10px;
-    top: 23px;
+    top: 6px;
     display: block;
     width: 45px;
     height: 39px;
