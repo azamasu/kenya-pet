@@ -1,0 +1,48 @@
+#complete {
+  padding: 80px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+#complete #container {
+  max-width: 750px;
+  width: 90%;
+}
+#complete #container .text_area {
+  border: 2px solid #92c9d3;
+  margin-top: 35px;
+  padding: 30px 40px;
+  line-height: 2;
+}
+#complete #container .send {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#complete #container .send .send_btn {
+  background: #92c9d3;
+  color: white;
+  padding: 15px 60px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  #complete #container .text_area {
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 8%;
+  }
+  #complete #container .text_area br {
+    display: none;
+  }
+  #complete #container .send {
+    margin-top: 8%;
+  }
+  #complete #container .send .send_btn {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}

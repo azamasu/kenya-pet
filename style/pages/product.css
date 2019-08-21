@@ -1,0 +1,182 @@
+#product {
+  color: #485254;
+}
+#product .introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 90px;
+}
+#product .introduction .line {
+  height: 50px;
+}
+#product .introduction .line img {
+  height: 100%;
+}
+#product .introduction .container {
+  width: 100%;
+  padding: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#product .introduction .container .sentence {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 80px;
+  margin: 0 0 90px;
+  width: 940px;
+}
+#product .introduction .container .img_area {
+  width: 780px;
+}
+#product .dog_cat {
+  display: flex;
+  justify-content: center;
+}
+#product .dog_cat .container {
+  width: 1090px;
+  text-align: center;
+}
+#product .dog_cat .container .dog,
+#product .dog_cat .container .cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 110px;
+}
+#product .dog_cat .container .head_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 94px;
+}
+#product .dog_cat .container .head_line .head {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+#product .dog_cat .container .head_line .line {
+  width: 28%;
+}
+#product .dog_cat .container .sentence {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 66px;
+  margin: 0 0 94px;
+}
+#product .dog_cat .container .img_area {
+  width: 360px;
+}
+
+@media (max-width: 1050px) {
+  #product {
+  }
+  #product .introduction {
+  }
+  #product .introduction .line {
+    height: 36px;
+  }
+  #product .introduction .container {
+  }
+  #product .introduction .container .sentence {
+    font-size: 26px;
+    line-height: 42px;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  #product .introduction .container .img_area {
+    width: 80%;
+  }
+  #product .dog_cat {
+  }
+  #product .dog_cat .container {
+    width: 90%;
+  }
+  #product .dog_cat .container .dog,
+  #product .dog_cat .container .cat {
+  }
+  #product .dog_cat .container .head_line {
+    margin-bottom: 50px;
+  }
+  #product .dog_cat .container .head_line .head {
+    font-size: 22px;
+  }
+  #product .dog_cat .container .head_line .line {
+    width: 24%;
+  }
+  #product .dog_cat .container .sentence {
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 30px;
+  }
+  #product .dog_cat .container .img_area {
+  }
+}
+
+@media (max-width: 800px) {
+  #product {
+  }
+  #product .introduction {
+    padding: 0 0 47px;
+  }
+  #product .introduction .line {
+    height: 20px;
+  }
+  #product .introduction .container {
+    width: 100%;
+    padding: 34px 0 0;
+  }
+  #product .introduction .container .sentence {
+    width: 70%;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    margin: 0 0 34px;
+  }
+  #product .introduction .container .img_area {
+    width: 86%;
+  }
+  #product .dog_cat {
+  }
+  #product .dog_cat .container {
+    width: 100%;
+  }
+  #product .dog_cat .container .dog,
+  #product .dog_cat .container .cat {
+    padding: 0 0 46px;
+  }
+  #product .dog_cat .container .head_line {
+    margin: 0 0 36px;
+  }
+  #product .dog_cat .container .head_line .head {
+    letter-spacing: 3px;
+  }
+  #product .dog_cat .container .head_line .line {
+    width: 20%;
+  }
+  #product .dog_cat .container .head_line .line .none {
+    display: none;
+  }
+  #product .dog_cat .container .sentence {
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    margin: 0 0 26px;
+  }
+  #product .dog_cat .container .img_area {
+    width: 54%;
+  }
+}
+
+@media (max-width: 500px) {
+  #product .dog_cat .container .head_line .head {
+    font-size: 13px;
+  }
+  #product .dog_cat .container .head_line .line {
+    width: 18%;
+  }
+}

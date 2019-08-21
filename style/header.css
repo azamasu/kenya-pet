@@ -1,0 +1,137 @@
+#header {
+  border-top: 34px #c9e4e9 solid;
+  display: flex;
+  justify-content: center;
+}
+#header #navigation_bar {
+  width: 1060px;
+}
+#header #navigation_bar #img_and_nav {
+  display: flex;
+  justify-content: space-between;
+}
+#header #navigation_bar #img_and_nav .title_img {
+  width: 15%;
+}
+#header #navigation_bar #img_and_nav .nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+#header #navigation_bar #img_and_nav .nav .nav_items {
+  font-size: .9rem;
+  padding: 4px 10px;
+}
+#header #navigation_bar #img_and_nav .nav .nav_items + .nav_items {
+  border-left: dashed rgb(198, 221, 221) 1px;
+}
+.toggle {
+  display: none;
+}
+.global_nav {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  #header #navigation_bar {
+    width: 95%;
+  }
+  #header {
+    border-top: 18px rgb(198, 221, 221) solid;
+  }
+  #header #navigation_bar #img_and_nav {
+    width: 50%;
+  }
+  #header #navigation_bar #img_and_nav .title_img {
+    width: 100px;
+  }
+  #header #navigation_bar #img_and_nav .nav {
+    display: none;
+  }
+  #header #navigation_bar .phone_ver {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #header #navigation_bar .phone_ver i {
+    font-size: 35px;
+  }
+  #header #navigation_bar .phone_ver i:hover {
+    cursor: pointer;
+  }
+
+  /* ハンバーガーメニュー */
+  .toggle {
+    position: fixed; /* bodyに対しての絶対位置指定 */
+    right: 10px;
+    top: 23px;
+    display: block;
+    width: 45px;
+    height: 39px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .toggle div {
+    position: absolute;
+    width: 70%;
+    border-bottom: solid 3px #000;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    padding-top: 5px;
+    right: 7px;
+  }
+  .toggle div:nth-child(1) {
+    top: 3px;
+  }
+  .toggle div:nth-child(2) {
+    top: 13px;
+  }
+  .toggle div:nth-child(3) {
+    top: 23px;
+  }
+  /* 最初のdivをマイナス45度に */
+  .toggle.active div:nth-child(1) {
+    top: 15px;
+    left: 4px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  /* 2番目と3番目のdivを45度に */
+  .toggle.active div:nth-child(2),
+  .toggle.active div:nth-child(3) {
+    top: 15px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* .global_nav */
+  .global_nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-200%);
+    z-index: 2;
+    text-align: center;
+    color: #000;
+    background: #ccc;
+    transition: all 0.35s;
+  }
+  .global_nav ul {
+    margin: 18px 0;
+  }
+  .global_nav .nav_li a {
+    font-size: .8rem;
+    font-weight: bold;
+    display: block;
+    padding: 16px;
+  }
+  /* .global_navに.activeが追加 */
+  .global_nav.active {
+    transform: translateY(0%);
+  }
+}

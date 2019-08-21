@@ -1,0 +1,26 @@
+#contact-headline * {
+  text-align: center;
+  font-weight: bold;
+}
+#contact-headline .headline {
+  font-size: 34px;
+  letter-spacing: 4px;
+}
+#contact-headline .description {
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  #contact-headline .headline {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  #contact-headline .description {
+    font-size: 13px;
+    margin-top: 8%;
+  }
+  #contact-headline .description br {
+    display: none;
+  }
+}

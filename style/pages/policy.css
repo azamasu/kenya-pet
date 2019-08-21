@@ -1,0 +1,113 @@
+#policy {
+  padding: 0 0 100px;
+  color: #485254;
+}
+#policy #top {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 0;
+}
+#policy #top #container {
+  width: 1080px;
+  border-bottom: 2px solid #c9e4e9;
+}
+#policy #top #container .head {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 80px;
+}
+#policy #top #container .sentence {
+  margin-bottom: 50px;
+}
+#policy #bottom {
+  display: flex;
+  justify-content: center;
+  padding: 42px 0 0;
+}
+#policy #bottom #container {
+  width: 1080px;
+  border-bottom: 2px solid #c9e4e9;
+}
+#policy #bottom #container .head {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 34px;
+}
+#policy #bottom #container .sentence {
+  margin-bottom: 34px;
+}
+#policy #bottom #container .ul {
+  margin: 0 0 50px 94px;
+}
+#policy #bottom #container .ul li {
+  line-height: 50px;
+}
+
+@media (max-width: 1050px) {
+  #policy {
+  }
+  #policy #top {
+  }
+  #policy #top #container {
+    width: 90%;
+  }
+  #policy #top #container .head {
+  }
+  #policy #top #container .sentence {
+  }
+  #policy #bottom {
+  }
+  #policy #bottom #container {
+    width: 90%;
+  }
+  #policy #bottom #container .head {
+  }
+  #policy #bottom #container .sentence {
+  }
+  #policy #bottom #container .ul {
+  }
+  #policy #bottom #container .ul li {
+  }
+}
+
+@media (max-width: 800px) {
+  #policy {
+  }
+  #policy #top {
+    padding: 26px 0 0;
+  }
+  #policy #top #container {
+    width: 82%;
+  }
+  #policy #top #container .head {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 24px;
+  }
+  #policy #top #container .sentence {
+    font-size: 12px;
+    margin: 0 0 20px;
+  }
+  #policy #bottom {
+    padding: 28px 0 0;
+  }
+  #policy #bottom #container {
+    width: 82%;
+  }
+  #policy #bottom #container .head {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 26px;
+  }
+  #policy #bottom #container .sentence {
+    font-size: 12px;
+    margin: 0 0 20px;
+  }
+  #policy #bottom #container .ul {
+    margin: 0 0 30px;
+  }
+  #policy #bottom #container .ul li {
+    font-size: 12px;
+    line-height: 30px;
+  }
+}
