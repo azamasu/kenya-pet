@@ -280,7 +280,7 @@
       <div class="sentence">
         私たちは世界一の日本ブランドを目指して、<br />世界中のお客様の笑顔のために、<br />日本の工場で製造・検品を丁寧に行っています。<br />安心・安全にこだわった<br />私たちが自信を持ってお届けする製品をお試しください。
       </div>
-      <div class="btn_area"><a href="<?= home_url(); ?>/product" class="btn">kenyaの製品情報</a></div>
+      <div class="btn_area"><a href="<?= home_url(); ?>/product" class="btn">Kenyaの製品情報</a></div>
     </div>
   </div>
 
@@ -314,18 +314,6 @@
       line-height: 1.8;
       margin-bottom: 80px;
     }
-    #history #aim_area #container .btn_area {
-      display: flex;
-      justify-content: center;
-    }
-    #history #aim_area #container .btn_area .btn {
-      background: #c9e4e9;
-      width: 210px;
-      text-align: center;
-      padding: 16px 0;
-      border-radius: 15%/50%;
-      font-weight: bold;
-    }
     @media (max-width: 800px) {
       #history #aim_area {
         padding: 80px 0 50px;
@@ -351,20 +339,14 @@
       #history #aim_area #container .sentence br {
         display: none;
       }
-      #history #aim_area #container .btn_area .btn {
-        font-size: 14px;
-        padding: 12px 0;
-        width: 170px;
-      }
     }
   </style>
   <div id="aim_area">
     <div id="container">
       <div class="head">やさしいあふれる豊かな社会をめざして</div>
       <div class="sentence">
-        kenyaサプリメントの描く未来は、やさしい”笑顔”あふれる豊かな社会。<br />創業以来の思いと技術の蓄積を生かし、挑戦心をもって、<br />「ペット」を通じて皆様に求められる企業を目指します。
+        Kenyaサプリメントの描く未来は、やさしい”笑顔”あふれる豊かな社会。<br />創業以来の思いと技術の蓄積を生かし、挑戦心をもって、<br />「ペット」を通じて皆様に求められる企業を目指します。
       </div>
-      <div class="btn_area"><a href="<?= home_url(); ?>/product" class="btn">kenyaの製品情報</a></div>
     </div>
   </div>
 
@@ -410,7 +392,6 @@
     @media (max-width: 800px) {
       #history #contact_area #container .head {
         font-size: 20px;
-        font-weight: bold;
         margin-bottom: 28px;
       }
       #history #contact_area #container .sentence {
@@ -430,7 +411,7 @@
     <div id="container">
       <div class="head">お問い合わせ</div>
       <div class="sentence">
-        商品に関するお問い合わせはお問い合わせフォームからご連絡ください。
+        商品に関するお問い合わせは下記ページからご連絡ください。
       </div>
       <div class="btn_area"><a href="<?= home_url(); ?>/contact" class="btn">お問い合わせフォーム</a></div>
     </div>
